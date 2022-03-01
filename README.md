@@ -1,6 +1,10 @@
 # wai-annotations-coco
 wai.annotations module for dealing MSCOCO object detection file formats.
 
+The manual is available here:
+
+https://ufdl.cms.waikato.ac.nz/wai-annotations-manual/
+
 ## Plugins
 ### FROM-COCO-OD
 Reads image object-detection annotations in the MS-COCO JSON-format
