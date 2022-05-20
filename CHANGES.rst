@@ -1,6 +1,13 @@
 Changelog
 =========
 
+1.0.2 (????-??-??)
+------------------
+
+- method `located_object_to_annotation` (module: `wai.annotations.coco.util._located_object_to_annotation`) skips
+  invalid polygons now rather than stopping the conversion
+
+
 1.0.1 (2021-05-20)
 ------------------
 

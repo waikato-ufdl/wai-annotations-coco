@@ -12,13 +12,18 @@ def located_object_to_annotation(located_object: LocatedObject) -> Annotation:
     """
     # Get the object's polygon if it has one
     polygon = []
+    has_polygon = False
     if located_object.has_polygon():
-        for point in located_object.get_polygon():
-            polygon.append(float(point.x))
-            polygon.append(float(point.y))
+        try:
+            for point in located_object.get_polygon():
+                polygon.append(float(point.x))
+                polygon.append(float(point.y))
+            has_polygon = True
+        except:
+            pass
 
     # Calculate the area of the annotation
-    if located_object.has_polygon():
+    if has_polygon:
         area = located_object.get_polygon().area()
     else:
         area = float(located_object.get_rectangle().area())
