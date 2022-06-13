@@ -1,7 +1,7 @@
 Changelog
 =========
 
-1.0.2 (????-??-??)
+1.0.2 (2022-06-13)
 ------------------
 
 - method `located_object_to_annotation` (module: `wai.annotations.coco.util._located_object_to_annotation`) skips
