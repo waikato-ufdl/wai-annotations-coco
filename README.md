@@ -1,5 +1,5 @@
 # wai-annotations-coco
-wai.annotations module for dealing MSCOCO object detection file formats.
+wai.annotations module for dealing [MSCOCO object detection file formats](https://cocodataset.org/#format-data).
 
 The manual is available here:
 
